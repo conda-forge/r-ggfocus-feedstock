@@ -1,4 +1,4 @@
-{% set version = '0.9' %}
+{% set version = "1.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggfocus_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggfocus/ggfocus_{{ version }}.tar.gz
-  sha256: 7528ea31996c72b3774404d59ac9063cb336c1c9862b20189eec51d8eec04d0d
+  sha256: 6bbb8011938043fa5a828b60f4d1ea3e6263be2b954d9a21621a55eacecf000f
 
 build:
   merge_build_host: True  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
