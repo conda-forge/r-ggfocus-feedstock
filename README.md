@@ -1,11 +1,11 @@
-About r-ggfocus
-===============
+About r-ggfocus-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggfocus-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/Freguglia/ggfocus
 
 Package license: GPL-3
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggfocus-feedstock/blob/main/LICENSE.txt)
 
 Summary: A 'ggplot2' extension that provides tools for automatically creating scales to focus on subgroups of the data plotted without losing other information.
 
