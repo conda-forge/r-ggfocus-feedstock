@@ -1,4 +1,4 @@
-{% set version = '1.0.0' %}
+{% set version = "1.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggfocus_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggfocus/ggfocus_{{ version }}.tar.gz
-  sha256: 6bbb8011938043fa5a828b60f4d1ea3e6263be2b954d9a21621a55eacecf000f
+  sha256: 64c8e4ee105d9cc90b728a53b8a04ea97959d4303459c5aefdf5182be85ba6d8
 
 build:
-  number: 4
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -44,8 +44,7 @@ test:
 about:
   home: https://github.com/Freguglia/ggfocus
   license: GPL-3
-  summary: A 'ggplot2' extension that provides tools for automatically creating scales to focus
-    on subgroups of the data plotted without losing other information.
+  summary: A 'ggplot2' extension that provides tools for automatically creating scales to focus on subgroups of the data plotted without losing other information.
   license_family: GPL3
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
